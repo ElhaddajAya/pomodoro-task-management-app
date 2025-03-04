@@ -30,7 +30,7 @@ class _TaskListPageState extends State<TaskListPage> {
       builder: (context) => AlertDialog(
         backgroundColor: Colors.black,
         title: Text("Delete Task ?", style: TextStyle(color: Colors.white)),
-        content: Text("Are you sure you want to delete thetask ?", style: TextStyle(color: Colors.white70)),
+        content: Text("Are you sure you want to delete the task ?", style: TextStyle(color: Colors.white70)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
